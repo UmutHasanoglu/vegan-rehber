@@ -1,0 +1,21 @@
+{
+  "name": "Vegan Rehber",
+  "short_name": "Vegan Rehber",
+  "description": "Your guide to vegan products in supermarkets",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10B981",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
