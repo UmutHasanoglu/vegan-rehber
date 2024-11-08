@@ -1,0 +1,4 @@
+id,name,brand,category,ingredients,imageUrl,barcode
+1,"Almond Milk","VegaMilk","Dairy Alternatives","Water, Almonds (2%), Salt, Stabilizer","https://images.unsplash.com/photo-1600788907416-456578634209?w=800",8690123456789
+2,"Dark Chocolate","VegaChoc","Snacks","Cocoa Mass, Cocoa Butter, Sugar","https://images.unsplash.com/photo-1511381939415-e44015466834?w=800",8690123456790
+3,"Hummus","VegaDip","Condiments","Chickpeas, Tahini, Olive Oil, Lemon Juice, Garlic","https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800",8690123456791
