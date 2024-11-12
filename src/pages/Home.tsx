@@ -1,94 +1,44 @@
-import React, { useState, useMemo } from 'react';
-import { Search, Filter, Heart } from 'lucide-react';
-import { useProducts } from '../context/ProductContext';
-import ProductCard from '../components/ProductCard';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { categories } from '../data/products';
 
+const categoryImages = {
+  'Snacks': 'https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=800',
+  'Beverages': 'https://images.unsplash.com/photo-1544252890-c3e4f8744f34?w=800',
+  'Dairy Alternatives': 'https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800',
+  'Ready Meals': 'https://images.unsplash.com/photo-1559847844-5315695dadae?w=800',
+  'Breakfast': 'https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800',
+  'Condiments': 'https://images.unsplash.com/photo-1472476443507-c7a5948772fc?w=800'
+};
+
 const Home = () => {
-  const { products, loading, favorites } = useProducts();
-  const [search, setSearch] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<string>('');
-  const [showFavorites, setShowFavorites] = useState(false);
-
-  const filteredProducts = useMemo(() => {
-    return products.filter(product => {
-      const matchesSearch = product.name.toLowerCase().includes(search.toLowerCase()) ||
-                          product.brand.toLowerCase().includes(search.toLowerCase());
-      const matchesCategory = !selectedCategory || product.category === selectedCategory;
-      const matchesFavorites = !showFavorites || favorites.includes(product.id);
-      return matchesSearch && matchesCategory && matchesFavorites;
-    });
-  }, [products, search, selectedCategory, showFavorites, favorites]);
-
-  if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-green-500"></div>
-      </div>
-    );
-  }
+  const navigate = useNavigate();
 
   return (
     <div className="p-4">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl font-bold text-green-800">Vegan Rehber</h1>
-        <button
-          onClick={() => setShowFavorites(!showFavorites)}
-          className={`p-2 rounded-full ${
-            showFavorites ? 'bg-red-50 text-red-500' : 'bg-gray-100 text-gray-600'
-          }`}
-        >
-          <Heart size={24} className={showFavorites ? 'fill-red-500' : ''} />
-        </button>
       </div>
       
-      <div className="mb-6">
-        <div className="relative">
-          <Search className="absolute left-3 top-3 text-gray-400" size={20} />
-          <input
-            type="text"
-            placeholder="Search products..."
-            className="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-          />
-        </div>
-      </div>
-
-      <div className="flex gap-2 overflow-x-auto pb-4 mb-6">
-        <button
-          onClick={() => setSelectedCategory('')}
-          className={`px-4 py-2 rounded-full whitespace-nowrap ${
-            !selectedCategory ? 'bg-green-500 text-white' : 'bg-gray-100 text-gray-700'
-          }`}
-        >
-          All
-        </button>
+      <div className="grid grid-cols-2 gap-4">
         {categories.map(category => (
-          <button
+          <div
             key={category}
-            onClick={() => setSelectedCategory(category)}
-            className={`px-4 py-2 rounded-full whitespace-nowrap ${
-              selectedCategory === category ? 'bg-green-500 text-white' : 'bg-gray-100 text-gray-700'
-            }`}
+            onClick={() => navigate(`/search?category=${encodeURIComponent(category)}`)}
+            className="relative overflow-hidden rounded-lg aspect-square cursor-pointer transform transition-transform hover:scale-105"
           >
-            {category}
-          </button>
+            <img
+              src={categoryImages[category]}
+              alt={category}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            <h3 className="absolute bottom-3 left-3 text-white font-semibold text-lg">
+              {category}
+            </h3>
+          </div>
         ))}
       </div>
-
-      {showFavorites && filteredProducts.length === 0 ? (
-        <div className="text-center py-8">
-          <Heart size={48} className="mx-auto text-gray-400 mb-4" />
-          <p className="text-gray-600">No favorite products yet</p>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {filteredProducts.map(product => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
-      )}
     </div>
   );
 };

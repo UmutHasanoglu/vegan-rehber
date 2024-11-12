@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Home, Scan, ClipboardList } from 'lucide-react';
+import { Home, Search, Scan, ClipboardList } from 'lucide-react';
 
 const Navigation = () => {
   const navigate = useNavigate();
@@ -17,6 +17,14 @@ const Navigation = () => {
             }`}
           >
             <Home size={24} />
+          </button>
+          <button
+            onClick={() => navigate('/search')}
+            className={`p-2 rounded-full ${
+              location.pathname === '/search' ? 'text-green-600 bg-green-50' : 'text-gray-600'
+            }`}
+          >
+            <Search size={24} />
           </button>
           <button
             onClick={() => navigate('/scanner')}

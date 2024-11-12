@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
+import Search from './pages/Search';
 import ProductDetail from './pages/ProductDetail';
 import Scanner from './pages/Scanner';
 import Report from './pages/Report';
@@ -15,6 +16,7 @@ function App() {
           <div className="max-w-lg mx-auto pb-20">
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/search" element={<Search />} />
               <Route path="/product/:id" element={<ProductDetail />} />
               <Route path="/scanner" element={<Scanner />} />
               <Route path="/report" element={<Report />} />
