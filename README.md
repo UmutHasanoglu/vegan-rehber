@@ -51,7 +51,6 @@ npm run build
 - [Tailwind CSS](https://tailwindcss.com/) - Styling
 - [React Router](https://reactrouter.com/) - Routing
 - [HTML5-QRCode](https://github.com/mebjas/html5-qrcode) - Barcode Scanner
-- [Lucide React](https://lucide.dev/) - Icons
 
 ## 📱 PWA Features
 
@@ -82,7 +81,6 @@ src/
 
 ## 🙏 Acknowledgments
 
-- [Unsplash](https://unsplash.com/) for the beautiful product images
 - [Lucide](https://lucide.dev/) for the icon set
 - All contributors who help make this project better
 
