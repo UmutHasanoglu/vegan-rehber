@@ -1,4 +1,170 @@
-id,name,brand,category,ingredients,imageUrl,barcode
-1,"Almond Milk","VegaMilk","Dairy Alternatives","Water, Almonds (2%), Salt, Stabilizer","https://images.unsplash.com/photo-1600788907416-456578634209?w=800",8690123456789
-2,"Dark Chocolate","VegaChoc","Snacks","Cocoa Mass, Cocoa Butter, Sugar","https://images.unsplash.com/photo-1511381939415-e44015466834?w=800",8690123456790
-3,"Hummus","VegaDip","Condiments","Chickpeas, Tahini, Olive Oil, Lemon Juice, Garlic","https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800",8690123456791
+﻿id,name,brand,category,ingredients,imageUrl,barcode
+1,Botanics Konsantre Yumuşatıcı Nisan Yağmuru 1440 Ml,ABC,Temizlik,,https://i.imgur.com/CK40Ojo.jpeg,8690511006923
+2,Botanics Konsantre Yumuşatıcı Eylül Güneşi 1440 Ml,ABC,Temizlik,,https://i.imgur.com/Gl59O6O.jpeg,8690511006916
+3,Antep Fıstık Ezmesi 200G,antebella,Kahvaltılık,,https://i.imgur.com/BgVMOWH.jpeg,8699936610067
+4,Dobipa Sos Cevizli 310 G,Berrak,Kahvaltılık,"közlenmiş kırmızı biber, közlenmiş patlıcan, domates, ceviz (%3,5), havuç, şeker, tuz, mısırözü yağı, sirke, antioksidan askorbik asit, sarımsak, maydanoz, çeşitli baharatlar",https://i.imgur.com/lTohs7T.jpeg,8690531140010
+5,Oxygen Parfümsüz 4 Kg,Bingo,Temizlik,,https://i.imgur.com/RUb87J7.jpeg,8690536905027
+6,Oxyjen Doğal Sıvı 1.170 Ml,Bingo,Temizlik,,https://i.imgur.com/WxjsM2v.jpeg,8690536905034
+7,Oxjyen Yumuşatıcı Konsantre 1320ML Yasemin & Beyaz Çay,Bingo,Temizlik,,https://i.imgur.com/IdVUxYG.png,8690536905348
+8,Barbunya Pilaki 400 G,Burcu,Hazır Yemek,,https://i.imgur.com/MMFSHuH.png,8691573017193
+9,Fasulye Pilaki 400 G,Burcu,Hazır Yemek,,https://i.imgur.com/LdkiyxF.jpeg,8691573018190
+10,Yaprak Sarma,Burcu,Konserve,,https://i.imgur.com/sm4JqSM.jpeg,8691573023330
+11,Acılı Ketçap 400 G,Calve,Sos,,https://i.imgur.com/Ma16Fmx.jpeg,8690637840746
+12,Ketçap 400 G,Calve,Sos,,https://i.imgur.com/n16POtq.jpeg,8690637840821
+13,Ketçap 600 G,Calve,Sos,,https://i.imgur.com/JTYoH9V.jpeg,8690637905193
+14,Acılı Ketçap 600 G,Calve,Sos,,https://i.imgur.com/bv5v80n.jpeg,8690637905896
+15,Barbunya Pilaki 400 G,Çokça,Hazır Yemek,"Barbunya, içme suyu, ayçiçek yağı, patates, havuç, soğan domates salçası, yeşil biber, tuz, buğday unu, şeker, baharat.",https://i.imgur.com/my27Ou9.jpeg,
+16,Doğal Granül Matik Sabun Lavanta,Duru,Temizlik,,https://i.imgur.com/DAWSpvE.jpeg,8690506504519
+17,Granül Matik Sabun Klasik,Duru,Temizlik,,https://i.imgur.com/DyS022f.jpeg,8690506504502
+18,Organik Çamaşır Yumuşatıcı 750 ml,ecos3,Temizlik,,https://imgur.com/tGk1jdR,8680624090209
+19,Organik Elde Bulaşık Deterjanı 500 Ml,ecos3,Temizlik,,https://imgur.com/y9HGOVe,8680624091190
+20,"Zeytinyağlı Bebek Çamaşır Yıkama Sıvısı 1,5 kg",Eyüp Sabri Tuncer,Temizlik,,https://i.imgur.com/uFVW8KO.jpeg,8691685023143
+21,Mısır 450 G,Feast,Dondurulmuş Gıda,,https://i.imgur.com/xWsC0o4.jpeg,8697343550006
+22,Patates İnce Çubuk 1 Kg,Feast,Dondurulmuş Gıda,,https://i.imgur.com/oPdOm4i.jpeg,8697343600039
+23,Taze Fasulye 450 G,Feast,Dondurulmuş Gıda,,https://i.imgur.com/iADOSW2.jpeg,8697343550020
+24,Soğan Halka 450 G,Feast,Dondurulmuş Gıda,,https://i.imgur.com/vg0OB4r.jpeg,8697343650027
+25,Milföy 1KG,Feast,Dondurulmuş Gıda,"Buğday unu, bitkisel margarin (bitkisel yağ (palm, pamuk), emülgatör (yağ asitlerinin mono ve digliseritleri, ayçiçek lesitini), renklendirici (beta karoten), antioksidan (E321)), su, tuz, şeker, asitlik düzenleyicisi (sitrik asit E330)",https://i.imgur.com/pP56gJu.jpeg,8697343700074
+26,Organik Brokoli 450 G,Feast,Dondurulmuş Gıda,,https://i.imgur.com/PbbwTP7.jpeg,8697343550228
+27,Gurme Churros Kesim Patates 1 Kg,Feast,Dondurulmuş Gıda,,https://i.imgur.com/SkC3kvu.jpeg,8697343111689
+28,Granola Yaban Mersini & Kuruyemişli 300 G,Fellas,Kahvaltılık,,https://i.imgur.com/eeCMoJy.jpeg,8683200063017
+29,Fındık Ezmesi 180 G,Fiskobirlik,Kahvaltılık,"Fındık %70, şeker %30, aroma verici (vanilin)",https://i.imgur.com/KsRtI6O.jpeg,8691641080005
+30,Fındık Ezmesi 300 G,Fiskobirlik,Kahvaltılık,"Fındık %70, şeker %30, aroma verici (vanilin)",https://i.imgur.com/acHeUry.jpeg,8691641080036
+31,Şeker İlavesiz Fındık Ezmesi 300 G,Fiskobirlik,Kahvaltılık,"Fındık (%65), izomalt, inülin (%12)",https://i.imgur.com/OoA0zE1.jpeg,8691641770647
+32,Aloe Veralı Bulaşık Deterjanı 750 Ml,Frosch,Temizlik,,https://imgur.com/teRsvK9,4009175187895
+33,Sıvı Çamaşır Deterjanı 1 Lt Parfümsüz,Gleen,Temizlik,,https://i.imgur.com/IdtvmXH.jpeg,8690536905430
+34,Sıvı Çamaşır Deterjanı 1 Lt Lavanta,Gleen,Temizlik,,https://i.imgur.com/hGtNQVJ.jpeg,8690536905454
+35,Yumuşatıcı 1L Lavanta,Gleen,Temizlik,,https://i.imgur.com/7WgnF4p.jpeg,8690536905485
+36,Yumuşatıcı 1 L Parfümsüz,Gleen,Temizlik,,https://i.imgur.com/kQCQaZj.jpeg,8690536905461
+37,Yumuşatıcı 1 L Mürver,Gleen,Temizlik,,https://i.imgur.com/MHzLSdV.jpeg,8690536905478
+38,Temizleyici Sprey 1 L Limon,Gleen,Temizlik,,https://i.imgur.com/omxRinI.jpeg,8690536905492
+39,Temizleyici Sprey 1 L Lavanta,Gleen,Temizlik,,https://i.imgur.com/68Etc5s.jpeg,8690536905515
+40,Bitkisel Çamaşır Sıvı Deterjanı 1000 Ml,Green Clean,Temizlik,,https://i.imgur.com/ory3QDp.jpeg,8690588005331
+41,Bitkisel Çamaşır Yumuşatıcı 1000 Ml,Green Clean,Temizlik,,https://i.imgur.com/SxsONWh.jpeg,8690588005355
+42,Bitkisel Çamaşır Suyu 1000 Ml,Green Clean,Temizlik,,https://i.imgur.com/y4V1EAt.jpeg,8690588005416
+43,Baby Leke Çıkarıcı 1000 ml,Green Clean,Temizlik,,https://i.imgur.com/8A2SBdO.jpeg,8690588007069
+44,Baby Çamaşır Yumuşatıcı 1000 ml,Green Clean,Temizlik,,https://i.imgur.com/RDwl8bd.jpeg,8690588007052
+45,Sensitive Kokusuz Sıvı Çamaşır Deterjanı 1 lt,Green Clean,Temizlik,,https://i.imgur.com/snOm9Li.jpeg,8690588007083
+46,Sensitive Kokusuz Yumuşatıcı,Green Clean,Temizlik,,https://i.imgur.com/HJZ2E72.jpeg,8690588007090
+47,Banyo Temizleyici,Green Clean,Temizlik,,https://i.imgur.com/jgOGZaj.jpeg,8690588005386
+48,Bitkisel Çok Amaçlı Temizleyici 2750 Ml,Green Clean,Temizlik,,https://i.imgur.com/cVd1Rk5.jpeg,8690588008059
+49,Bitkisel Tuvalet Temizleyici 750 Ml,Green Clean,Temizlik,,https://i.imgur.com/lyr5m9p.jpeg,8690588007144
+50,Bulaşık Deterjanı 730ML,Green Clean,Temizlik,,https://i.imgur.com/WIDDLSs.jpeg,8696236806619
+51,Bitkisel Bulaşık Makinesi Tablet 30lu,Green Clean,Temizlik,,https://i.imgur.com/EBTuqmo.jpeg,8690588005546
+52,Bitkisel Bulaşık Makinesi Parlatıcı 500 Ml,Green Clean,Temizlik,,https://i.imgur.com/6agxdA0.jpeg,8690588005553
+53,Sensitive Bulaşık Deterjanı Elde Yıkama,Green Clean,Temizlik,,https://i.imgur.com/zdEBNwX.jpeg,8690588007137
+54,Bitkisel Çok Amaçlı Temizleyici 1000 Ml,Green Clean,Temizlik,,https://i.imgur.com/5vFNYyq.jpeg,8690588005300
+55,Bitkisel Yağ Çözücü 500 Ml,Green Clean,Temizlik,,https://i.imgur.com/pAnGeNo.jpeg,8690588005324
+56,Baby Sıvı Çamaşır Deterjanı 1000 ml ,Green Clean,Temizlik,,https://i.imgur.com/NPmFnZd.jpeg,8690588007045
+57,Bitkisel Bulaşık Deterjanı 730 Ml,Green Clean,Temizlik,,https://i.imgur.com/JqMecTP.jpeg,8690588005027
+58,Makine Temizleyici Organik Portakal Yağlı 250 Ml,Green Clean,Temizlik,,https://i.imgur.com/aq9QHv7.jpeg,8690588008028
+59,"Bulaşık Makinası Tuzu 1,5KG",Green Clean,Temizlik,,https://i.imgur.com/Dn3l9QU.jpeg,8690588905853
+60,Jelly Beans 80 Gr,Haribo,Atıştırmalık,,https://i.imgur.com/aj5g0f1.jpeg,8691216044609
+61,Ketçap 1000 G,Heinz,Sos,,https://i.imgur.com/oQTRllr.jpeg,8715700016504
+62,Acılı Ketçap 460 G,Heinz,Sos,,https://i.imgur.com/of6jt3K.jpeg,8715700119564
+63,Sarımsaklı Ketçap 460 G,Heinz,Sos,"Domates (100g ketçapta 148g), Şeker, Sirke, Tuz, Sarımsak Tozu, Doğal Sarımsak Aroma Vericisi, Doğal Aroma Verici (Kereviz içerir).",https://i.imgur.com/0r5pH8z.jpeg,8715700118901
+64,Meksika Fasulyesi 400 G,Heinz,Hazır Yemek,,https://i.imgur.com/BVVC1GD.jpeg,5900783007638
+65,Leke Çıkarma Mendili 10 lu,HighGenic,Temizlik,,https://i.imgur.com/5ICRh87.jpeg,8699469130353
+66,Krema Fıstık Ezmesi 454 G,Jif,Kahvaltılık,,https://i.imgur.com/ZiWkJly.jpeg,51500255162
+67,K. Flakes Sade 420 Gr,Kellogg's,Kahvaltılık,,https://i.imgur.com/35eYV7O.jpeg,8690504271680
+68,K. Flakes Kırmızı Meyveli 400 Gr,Kellogg's,Kahvaltılık,,https://i.imgur.com/UXJp6Vy.png,8690504270997
+69,Corn Flakes 400 Gr,Kellogg's,Kahvaltılık,,https://i.imgur.com/S1McArh.jpeg,8690504271628
+70,Yulaf Ezmesi 400 Gr,Kellogg's,Kahvaltılık,,https://i.imgur.com/wHVUOix.jpeg,8682530000136
+71,Jelibon Sour Patch Kids 80 Gr,Kent,Atıştırmalık,,https://imgur.com/efeByOy,7622210797698
+72,Jelibon Sourpatch Karpuz 80G,Kent,Atıştırmalık,"Şeker ,invert şeker şurubu ,su ,glukoz şurubu ,nişasta ,asitler (sitrik asit ,tartarik asit) ,renklendiriciler (antosiyaninler ,titanyum dioksit ,kurkumin ,bitkisel karbon) ,asitlik düzenleyici (sodyum hidroksit) ,aroma verici",https://i.imgur.com/kYNTMXj.jpeg,7622210796844
+73,Keçiboynuzlu Tahin Pekmez 350 G,Koska,Kahvaltılık,"%60 keçiboynuzu pekmezi (keçiboynuzundan üretilmiştir), %40 tahin (susamdan üretilmiştir)",https://i.imgur.com/xZCdvX7.jpeg,8690710141708
+74,Fındık Püreli Tahin Pekmez Karışımı 320 G,Koska,Kahvaltılık,"%53 Üzüm Pekmezi (Tatlı-Sıvı Üzüm Pekmezi), %35 Tahin (Susamdan Üretilmiştir), %12 Fındık Püresi",https://i.imgur.com/vjNEM90.jpeg,8690710141760
+75,Tahin Pekmez Karışımı 350 G,Koska,Kahvaltılık,"%60 üzüm pekmezi (tatlı, sıvı üzüm pekmezi, üzümden üretilmiştir), %40 tahin (susamdan üretilmiştir)",https://i.imgur.com/7RtNvQl.jpeg,8690710140060
+76,Kahvaltılık Sos 300 G,Kühne,Kahvaltılık,"KAPYA BİBER (%72), SU, DOMATES SALÇASI, FINDIK (%3), TUZ, SİRKE,CEVİZ (%1), BAHARAT KARIŞIMI, BİTKİSEL YAĞ (AYÇİÇEK YAĞI), ŞEKER, SARIMSAK, ASİTLİK DÜZENLEYİCİ (SİTRİK ASİT), ANTİOKSİDAN (ASKORBİK ASİT). ÜRÜN FINDIK (%3) VE CEVİZ (%1) İÇERMEKTEDİR VE ETİKETTE KOYU OLARAK BELİRTİLMİŞTİR.",https://i.imgur.com/oEOvuDh.png,8696027016913
+77,Yer Fıstıklı Ve Hurmalı Müsli 350 G,Lifalif,Kahvaltılık,"Yulaf Ezmesi (Gluten içerir), Yer Fıstığı %13, Kuru Hurma %13",https://i.imgur.com/0zBPgbH.jpeg,8690526014548
+78,İnce Öğütülmüş Yulaf Ezmesi 350 G,Lifalif,Kahvaltılık,"Yulaf Ezmesi (Gluten içerir.)",https://i.imgur.com/BwXmMIR.jpeg,8690526039503
+79,Yulaf Ezmesi 500 G,Lifalif,Kahvaltılık,"Yulaf Ezmesi (Gluten içerir.)",https://i.imgur.com/DJcwpVm.jpeg,8690526069500
+80,İnce Hibiskuslu Müsli 250G,Lifalif,Kahvaltılık,"Yulaf Ezmesi (Gluten içerir) 75,7%, Elma Tozu, Badem 4%, Kurutulmuş Turna Yemişi 3%, Hibiskus 2,8%, Kurutulmuş Vişne 1%",https://i.imgur.com/Iy4XlJ9.jpeg,8690526019949
+81,Sıvı Çamaşır Deterjanı 1.5 lt,Life by Fakir,Temizlik,,https://i.imgur.com/zBRgI5k.jpeg,8690394204157
+82,Doğal Eko Toz Deterjan 1.5 kg,Life by Fakir,Temizlik,,https://i.imgur.com/q00sugn.jpeg,8690394677258
+83,Bulaşık Makinesi Deterjanı 30 lu,Life by Fakir,Temizlik,,https://i.imgur.com/v556vEy.jpeg,8682615200833
+84,Biscoff Spread Bisküvi Ezmesi Original 400 G,Lotus,Kahvaltılık,,https://i.imgur.com/oy4f3AS.jpeg,5410126116953
+85,Biscoff Spread Bisküvi Ezmesi Crunchy 380 G,Lotus,Kahvaltılık,,https://i.imgur.com/B2QU3n6.jpeg,5410126726947
+86,"Mix Dondurulmuş Sebze 2,5KG",Metro Chef,Dondurulmuş Gıda,,https://i.imgur.com/fDhd9K5.jpeg,8696236010597
+87,"Tatlı Patates 2,5KG",Metro Chef,Dondurulmuş Gıda,,https://i.imgur.com/8kgzmDB.jpeg,43371821271921
+88,Brüksel Lahanası 450G,Metro Chef,Dondurulmuş Gıda,,https://i.imgur.com/6F0RUGw.jpeg,8696236014113
+89,"Brüksel Lahanası 2,5KG",Metro Chef,Dondurulmuş Gıda,,https://i.imgur.com/Wl64X4S.jpeg,8696236010641
+90,İçli Köfte 8li Vegan 40G,Metro Chef,Dondurulmuş Gıda,,https://i.imgur.com/wehsoNB.jpeg,8680487840331
+91,Lahmacun 5li Vegan 100G,Metro Chef,Dondurulmuş Gıda,,https://i.imgur.com/Pd0X2c4.jpeg,8696236020442
+92,Paçanga Böreği Vegan 1KG,Metro Chef,Dondurulmuş Gıda,,https://i.imgur.com/OgCqWhh.jpeg,8696236020572
+93,Acuka 300G,Metro Chef,Sos,,https://i.imgur.com/fVTbXDw.jpeg,8696236431286
+94,Humus 300G,Metro Chef,Sos,,https://imgur.com/KyQz0ge,8682692810390
+95,Acılı Ezme 300G,Metro Chef,Sos,,https://i.imgur.com/MZOMBYN.jpeg,8696236427128
+96,Veggie Pesto Sos 190G,Metro Chef,Sos," %33 Fesleğen, %17 Kaju Ve %5 Çam Fıstığı",https://i.imgur.com/WjkmSzm.jpeg,8696236434973
+97,Şakşuka 200G,Mezzet,Sos,,https://i.imgur.com/ZXRQNYg.jpeg,8699177450569
+98,Acılı Ezme 250 Gr,Mezzet,Sos,,https://i.imgur.com/osa518x.jpeg,8699177401417
+99,Humus 200G,Mezzet,Sos,,https://i.imgur.com/V7uUo7m.png,8697677560139
+100,Acılı Ezme 1KG,Mezzet,Sos,,https://i.imgur.com/LzP54SX.jpeg,8699177401615
+101,Glutensiz Granola 300G,Mom's Natural,Kahvaltılık,,https://i.imgur.com/faortYw.jpeg,3215437658976
+102,Granola Yaban Mersin 360 Gr,Mom's Natural,Kahvaltılık,,https://i.imgur.com/YxieiB4.jpeg,8681267006008
+103,Granola Keçi Boynuzu 360 Gr,Mom's Natural,Kahvaltılık,,https://i.imgur.com/zfWUDZv.jpeg,8681267006022
+104,Granola Kakao Fındık 360 Gr,Mom's Natural,Kahvaltılık,,https://i.imgur.com/wUUOI6M.jpeg,8681267006039
+105,Granola Müsli 300 Gr,Mom's Natural,Kahvaltılık,,https://imgur.com/xo9D2MF,8681267006480
+106,Kinoa Gevreği Glutensiz Ve Organik 250G,Nustil,Kahvaltılık,,https://i.imgur.com/6FgjOVl.jpeg,8697617906157
+107,Bitter Pul Çikolata,Pakmaya,Çikolata,"Şeker, kakao kitlesi, kakao yağı, kakao tozu, emulgatör (soya lesitini), aroma verici (vanilin)",https://i.imgur.com/xRVBQTs.jpeg,8690770328156
+108,Lütenitsa Balkan Sosu Acılı 300 G,Penguen,Kahvaltılık,"Közlenmiş Biber, Domates Püresi, Közlenmiş Patlıcan, Şeker,Ayçiçek Yağı, Tuz, Soğan, Sarımsak, Baharat Karışımı,Acı Biber",https://i.imgur.com/Ripkn0r.jpeg,8691422701433
+109,Lütenitsa Sos 300 G,Penguen,Kahvaltılık,"Közlenmiş Biber, Domates Püresi,Közlenmiş Patlıcan ,Şeker,Ayçiçek Yağı,Tuz ,Soğan,Sarımsak,Baharat Karışımı",https://i.imgur.com/0co9XDP.jpeg,8691422701402
+110,Konsantre Yumuşatıcı Manolya 1440 ml,Peros,Temizlik,,https://i.imgur.com/QjUA6FP.jpeg,8697713833852
+111,Konsantre Yumuşatıcı Gül 1440 ml,Peros,Temizlik,,https://i.imgur.com/8gWHQxs.jpeg,8697713833845
+112,Konsantre Yumuşatıcı Orkide 1440 ml,Peros,Temizlik,,https://i.imgur.com/e6L3X2j.jpeg,8697713833838
+113,Konsantre Yumuşatıcı Yasemin 1440 ml,Peros,Temizlik,,https://i.imgur.com/rpSmTKi.jpeg,8697713833821
+114,Milföy 1KG,Pınar,Dondurulmuş Gıda,,https://i.imgur.com/wv4qEsV.jpeg,8690527110034
+115,Fishless Fillets 200G,Quorn,Dondurulmuş Gıda,,https://i.imgur.com/RW1pdPH.jpeg,5019503038613
+116,Vegan Fingers 200G,Quorn,Dondurulmuş Gıda,,https://i.imgur.com/Ck1BXbh.jpeg,5019503031508
+117,Vegan Nuggets 280G,Quorn,Dondurulmuş Gıda,,https://i.imgur.com/4mW3rBg.jpeg,5019503030134
+118,Bruschetta Ezme Kapya Biberli 190G,Jr Sous Chef,Kahvaltılık,,https://i.imgur.com/p9NKvwb.jpeg,8682442280138
+119,Lütenitsa Tatlı 540G,Rifat Minare,Kahvaltılık,,https://i.imgur.com/IVsNEAn.jpeg,8698683400624
+120,Bitter Fındık Ezmesi 350 G,Sarelle,Kahvaltılık,"Şeker, Bitkisel Yağ (Ayçiçek, Shea, Hindistan Cevizi), Kakao Tozu (%15), Fındık (%13), Bitter Çikolata (Şeker, Kakao Kitlesi, Kakao Yağı), Emülgatör (Ayçiçek Lesitini), Doğal Aroma Verici (Vanilya). Eser miktarda süt ve süt ürünleri içerebilir",https://i.imgur.com/i86vtIF.jpeg,8690550914241
+121,Choco Balls Glutensiz Çikolata Kaplı Mısır Gevreği,Schar,Kahvaltılık,"Mısır irmiği, şeker, kakao tozu % 8, iyotlu tuz (tuz, potasyum iyodür)",https://i.imgur.com/RVufl1n.jpeg,8008698007709
+122,Bulaşık Makinesi Deterjanı Bitkisel Özlü 1200 ml,Sır Bio,Temizlik,,https://i.imgur.com/zQoOZMU.jpeg,8693023301838
+123,Bebek Çamaşır Sabunu 750 ml,Siveno,Temizlik,,https://i.imgur.com/8ox5LY3.jpeg,8681511098964
+124,Çıtır Çubuk Patates 1000 G,Superfresh,Dondurulmuş Gıda,"Patates, bitkisel palm yağı, tuz",https://i.imgur.com/7PU2jsA.jpeg,8690612415204
+125,Elma Dilim Patates 1 Kg,Superfresh,Dondurulmuş Gıda,"patates, bitkisel palm yağı, tuz, şeker",https://i.imgur.com/NTbR6ha.jpeg,8690612415822
+126,Patatesli Garnitür 450 G,Superfresh,Dondurulmuş Gıda,"BEZELYE, HAVUÇ,PATATES",https://i.imgur.com/7Wt5e8B.jpeg,8690612421014
+127,Hızlı Dondurulmuş Tırtıklı Patates 400 G,Superfresh,Dondurulmuş Gıda,"Patates, bitkisel yağ ( Palm), Tuz",https://i.imgur.com/7krhSNr.jpeg,8690612417413
+128,Taze Fasulye 450 G,Superfresh,Dondurulmuş Gıda,"Taze fasülye, domates",https://i.imgur.com/LZDln9T.jpeg,8690612404017
+129,Milföy 1KG,Superfresh,Dondurulmuş Gıda,,https://i.imgur.com/88FiB8a.jpeg,8690612502058
+130,Bezelye 450 G,Superfresh,Dondurulmuş Gıda,Bezelye,https://i.imgur.com/DwckC7l.jpeg,8690612402013
+131,Körpe Ispanak 450 G,Superfresh,Dondurulmuş Gıda,Ispanak,https://i.imgur.com/5x8MPHa.jpeg,8690612410032
+132,Ketçap Tatlı 250 gr,Tat,Sos,,https://i.imgur.com/a0qqPMm.jpeg,8690635151400
+133,Ketçap 650 G,Tat,Sos,,https://i.imgur.com/VUpiacG.jpeg,8690635151424
+134,Acılı Ketçap 450 G,Tat,Sos,,https://i.imgur.com/a0qqPMm.jpeg,8690635150243
+135,Acı Ketçap 650 G,Tat,Sos,,https://i.imgur.com/jaFUymp.jpeg,8690635151462
+136,Lutenitsa Balkan Sos 300 G,Tat,Kahvaltılık,"közlenmiş kırmızı biber (%42), közlenmiş patlıcan (%25),, domartes salçası (%12), biber salçası, ayçiçek yağı,şeker, tuz, sarımsak",https://i.imgur.com/twX6DM7.jpeg,8690635070510
+137,Tahin Pekmez Karışımı 300 G,Tat,Kahvaltılık,"Üzüm pekmezi(%65)(tatlı-sıvı), tahin (%35) (susam ürünü)",https://i.imgur.com/hSiYoiG.jpeg,8690635081189
+138,Acılı Ketçap 400 Gr,Tukaş,Sos,"Domates Püresi, Glikoz Surubu, Seker, Sirke, Modifiye Nisasta, Tuz, Asitlik Düzenleyici (Asetik Asit), Koruyucu Madde (Potasyum Sorbat, Sodyum Benzoat), Acı Biber Ekstraktı",https://i.imgur.com/4vNoVla.jpeg,8690508103468
+139,Barbunya Pilaki 400 G,Tukaş,Hazır Yemek,"Haşlanmış Barbunya (%60), su, ayçiçek yağı, değişen miktarlarda sebzeler (biber, patates,havuç) kuru soğan, domates salçası, tuz, şeker, sarımsak tozu",https://i.imgur.com/UteoYrx.jpeg,8690508301314
+140,Fasülye Pilaki 400 G,Tukaş,Hazır Yemek,"Haşlanmış Fasulye (%60), Su, Ayçiçek Yağı, Değişen Miktarlarda Sebzeler (Biber, Patates, Havuç), Kuru Soğan, Domates Salçası, Tuz, Şeker, Sarımsak Tozu",https://i.imgur.com/xCErymt.jpeg,8690508302311
+141,Bulaşık Deterjanı 750ML,Turmepa,Temizlik,,https://i.imgur.com/iyHtF3d.jpeg,8690588009384
+142,Falafel Burger 1KG,Upper Westside,Dondurulmuş Gıda,,,8681085004873
+143,Falafel Misket 1KG,Upper Westside,Dondurulmuş Gıda,,https://i.imgur.com/vPEb4pq.jpeg,8681085004828
+144,Falafel Stick Sebze Köftesi 1000 Gr,Upper Westside,Dondurulmuş Gıda,,https://i.imgur.com/wjxbK0K.jpeg,8681085004804
+145,Misket Sebze Köftesi 450 Gr,Upper Westside,Dondurulmuş Gıda,,https://i.imgur.com/EGLadRG.jpeg,8681085004842
+146,Vegan İtalyan Salam Sade 100G,Vappy,Şarküteri,,https://i.imgur.com/0rgCG1s.jpeg,8682874229057
+147,Vegan İtalyan Salam Karabiber 100G,Vappy,Şarküteri,,https://i.imgur.com/quz2xCb.jpeg,8682874229064
+148,Vegan Rozvif 100G,Vappy,Şarküteri,,https://i.imgur.com/SsxT6g9.png,8682874229040
+149,Vegan Sucuk 180G,Vappy,Şarküteri,,https://i.imgur.com/agym5Hx.jpeg,8682874229033
+150,Vegburger 18li 100G,Veggy,Şarküteri,,,8680518980821
+151,Vegan Hamburger 24lü 70G,Veggy,Şarküteri,,,8680518980845
+152,Vegburger 4lü 100G,Veggy,Şarküteri,,https://i.imgur.com/73yG102.jpeg,8680518980661
+153,Vegan Hamburger 6lı 70G,Veggy,Şarküteri,,https://i.imgur.com/eAealfM.jpeg,8680518980760
+154,Vegan Köfte Karışımı 200G,Veggy,Şarküteri,,https://i.imgur.com/03oXvQV.jpeg,8680518980265
+155,Bezelye Proteini 200G,Veggy,Şarküteri,,https://i.imgur.com/TyJxNOq.jpeg,8680518980357
+156,Vegan Köfte Karışımı 200 G,Veggy,Şarküteri,,,8680518980371
+157,Soya Köftesi Karışımı 200 G,Veggy,Şarküteri,,https://i.imgur.com/YxsKB21.jpeg,8680518980807
+158,Etsiz Tofu Kebap 300 G,Veggy,Şarküteri,,https://i.imgur.com/wzClekP.jpeg,8680518980180
+159,Vegan Köfte 300G,Veggy,Şarküteri,,https://i.imgur.com/uKJ6aYm.jpeg,8680518980340
+160,Tütsü Aromalı Tofu 300 G,Veggy,Kahvaltılık,,https://i.imgur.com/qTM1OCY.jpeg,8680518980111
+161,Tofu 300 G,Veggy,Kahvaltılık,,https://i.imgur.com/GRdh3BI.jpeg,8680518980166
+162,Bulaşık Deterjanı Fesleğen & Limon 750 ml,Viking Premium,Temizlik,,https://i.imgur.com/61iGRac.jpeg,8692900444019
+163,Konsantre Yumuşatıcı Flamingo 1200 ml,Viking Premium,Temizlik,,https://i.imgur.com/hX5rcKX.jpeg,8692900480017
+164,Konsantre Yumuşatıcı Butterfly 1200 ml,Viking Premium,Temizlik,,https://i.imgur.com/PJ1ddCo.jpeg,8692900481014
+165,Konsantre Çamaşır Yumuşatıcı Sensitive 1440 Ml,Viking Premium,Temizlik,,https://i.imgur.com/kc38q9f.jpeg,8692900834018
+166,Bulaşık Deterjanı Nergis & Bergamot 750 ml,Viking Premium,Temizlik,,https://i.imgur.com/FJAlFuW.jpeg,8692900445016
+167,Bulaşık Deterjanı Orman Meyveli 750 ml,Viking Premium,Temizlik,,https://i.imgur.com/82MKeYk.jpeg,8692900446013
+168,Haşlanmış Maş Fasulyesi 400 G,Yayla,Hazır Yemek,"maş fasulyesi (%55), su, tuz",https://i.imgur.com/YpOZABT.jpeg,8693374258430
+169,Kuru Fasulye 400 G,Yurt,Hazır Yemek,"Kuru fasulye, Ayçiçek yağı, Su, Salça, Tuz, Soğan, Domatesi, Biber.",https://i.imgur.com/QzZN1kj.jpeg,

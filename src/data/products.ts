@@ -14,10 +14,12 @@ export const loadProducts = async (): Promise<Product[]> => {
 };
 
 export const categories = [
-  'Snacks',
-  'Beverages',
-  'Dairy Alternatives',
-  'Ready Meals',
-  'Breakfast',
-  'Condiments',
+  "Temizlik",
+  "Kahvaltılık",
+  "Konserve",
+  "Dondurulmuş Gıda",
+  "Atıştırmalık",
+  "Sos",
+  "Çikolata",
+  "Şarküteri",
 ] as const;
