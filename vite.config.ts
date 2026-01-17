@@ -30,9 +30,7 @@ export default defineConfig({
         ]
       },
       workbox: {
-        // Cache all assets
         globPatterns: ['**/*.{js,css,html,png,svg}'],
-        // Enable offline mode
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/vegan-rehber\.netlify\.app\//,
@@ -41,7 +39,7 @@ export default defineConfig({
               cacheName: 'vegan-rehber-cache',
               expiration: {
                 maxEntries: 50,
-                maxAgeSeconds: 30 * 24 * 60 * 60 // 30 days
+                maxAgeSeconds: 30 * 24 * 60 * 60
               }
             }
           },
@@ -55,5 +53,11 @@ export default defineConfig({
         ]
       }
     })
-  ]
+  ],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/test/setup.ts',
+    css: true,
+  }
 });

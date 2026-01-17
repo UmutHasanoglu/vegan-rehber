@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer base {
+  /* Smooth transitions for dark mode */
+  html {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Better focus styles */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-green-500 ring-offset-2;
+  }
+
+  /* Dark mode ring offset color */
+  .dark *:focus-visible {
+    @apply ring-offset-gray-900;
+  }
+}
+
+/* QR Scanner customizations */
+#reader {
+  border: none !important;
+}
+
+#reader video {
+  border-radius: 0.5rem;
+}
+
+#reader__scan_region {
+  background: transparent !important;
+}
+
+#reader__dashboard_section_csr button {
+  @apply bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors !important;
+}
+
+#reader__dashboard_section_csr select {
+  @apply bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg px-3 py-2 !important;
+}
+
+/* Dark mode scanner adjustments */
+.dark #reader__dashboard {
+  @apply bg-gray-800 text-white !important;
+}
+
+.dark #reader__dashboard_section_csr span {
+  @apply text-gray-300 !important;
+}
