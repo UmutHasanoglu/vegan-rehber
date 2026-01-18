@@ -97,6 +97,7 @@ export const AdminProvider: React.FC<AdminProviderProps> = ({ children }) => {
       setIsAuthenticated(true);
       setFailedAttempts(0);
       sessionStorage.setItem(SESSION_KEY, 'true');
+      sessionStorage.setItem('adminPin', pin); // Store PIN for API calls
       localStorage.removeItem(ATTEMPTS_KEY);
       localStorage.removeItem(LOCKOUT_KEY);
       return true;
@@ -120,6 +121,7 @@ export const AdminProvider: React.FC<AdminProviderProps> = ({ children }) => {
   const logout = useCallback(() => {
     setIsAuthenticated(false);
     sessionStorage.removeItem(SESSION_KEY);
+    sessionStorage.removeItem('adminPin'); // Clear PIN on logout
   }, []);
 
   const isLocked = Boolean(lockoutEndTime && Date.now() < lockoutEndTime);
